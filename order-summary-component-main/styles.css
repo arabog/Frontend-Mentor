@@ -4,18 +4,18 @@ html {
 body {
   background-image: url(./images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-color: hsl(225, 100%, 98%);
 
   /* padding: 1rem; */
+  width: 37.5rem;
+  max-width: 144rem;
+  margin: 10% auto;
+  font-family: "Red Hat Display";
 }
 .order {
   background-color: #fff;
   border: 2px solid green;
-
-  width: 37.5rem;
-  max-width: 144rem;
-  margin: 0 auto;
 
   border-radius: 20px;
 
@@ -26,6 +26,9 @@ body {
   max-width: 100%;
   border-top-left-radius: 17px;
   border-top-right-radius: 17px;
+}
+.order-content {
+  padding: 20px;
 }
 
 .attribution {
