@@ -1,3 +1,8 @@
+.order {
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
