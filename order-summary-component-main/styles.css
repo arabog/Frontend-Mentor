@@ -1,4 +1,7 @@
 html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-size: 62.5%;
 }
 body {
@@ -6,31 +9,70 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: hsl(225, 100%, 98%);
-
-  /* padding: 1rem; */
   width: 37.5rem;
   max-width: 144rem;
   margin: 10% auto;
   font-family: "Red Hat Display";
+  font-size: 1.6rem;
+  text-align: center;
 }
 .order {
   background-color: #fff;
-  border: 2px solid green;
-
   border-radius: 20px;
-
-  /* text-align: center; */
 }
-
 .illustration-hero {
   max-width: 100%;
   border-top-left-radius: 17px;
   border-top-right-radius: 17px;
+  border: 2px solid red;
 }
 .order-content {
   padding: 20px;
+  border: 2px solid green;
+  margin: 0;
+  width: 100%;
 }
-
+.order-title {
+  font-weight: 900;
+}
+.order-content p {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  padding: 0px 30px 30px;
+  line-height: 1.6;
+}
+.subscription {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.annual-plan,
+.change-link {
+  font-weight: 900;
+}
+.annual-plan-price {
+  font-weight: 500;
+}
+.change-link,
+.payment-btn {
+  cursor: pointer;
+}
+.payment-btn {
+  width: 100%;
+  padding: 20px;
+  background-color: hsl(223, 47%, 23%);
+  color: #fff;
+  font-weight: 900;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: inherit;
+  margin-bottom: 30px;
+}
+.cancel-link {
+  display: block;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
