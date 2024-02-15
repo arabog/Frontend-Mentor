@@ -1,17 +1,31 @@
-.order {
+html {
+  font-size: 62.5%;
+}
+body {
   background-image: url(./images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
-
   background-color: hsl(225, 100%, 98%);
 
+  /* padding: 1rem; */
+}
+.order {
+  background-color: #fff;
   border: 2px solid green;
 
-  width: 85%;
+  width: 37.5rem;
+  max-width: 144rem;
+  margin: 0 auto;
+
+  border-radius: 20px;
+
+  /* text-align: center; */
 }
 
 .illustration-hero {
-  width: 100%;
+  max-width: 100%;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
 }
 
 .attribution {
