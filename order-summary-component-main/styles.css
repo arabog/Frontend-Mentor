@@ -9,9 +9,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: hsl(225, 100%, 98%);
+
   width: 37.5rem;
   max-width: 144rem;
-  margin: 10% auto;
+  margin: 0 auto;
+
   font-family: "Red Hat Display";
   font-size: 1.6rem;
   text-align: center;
@@ -19,18 +21,18 @@ body {
 .order {
   background-color: #fff;
   border-radius: 20px;
+
+  margin-top: 20px;
 }
 .illustration-hero {
   max-width: 100%;
   border-top-left-radius: 17px;
   border-top-right-radius: 17px;
-  border: 2px solid red;
 }
 .order-content {
   padding: 20px;
-  border: 2px solid green;
+  max-width: 100%;
   margin: 0;
-  width: 100%;
 }
 .order-title {
   font-weight: 900;
@@ -51,11 +53,17 @@ body {
 .change-link {
   font-weight: 900;
 }
+
+.annual-plan {
+  display: flex;
+}
 .annual-plan-price {
+  margin-top: 8px;
   font-weight: 500;
 }
 .change-link,
-.payment-btn {
+.payment-btn,
+.cancel-link {
   cursor: pointer;
 }
 .payment-btn {
@@ -72,6 +80,8 @@ body {
 }
 .cancel-link {
   display: block;
+  font-weight: 900;
+  text-decoration: none;
 }
 .attribution {
   font-size: 11px;
