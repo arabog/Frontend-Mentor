@@ -1,92 +1,42 @@
-html {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+html {
   font-size: 62.5%;
 }
 body {
-  background-image: url(./images/pattern-background-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: hsl(225, 100%, 98%);
-
   width: 37.5rem;
   max-width: 144rem;
   margin: 0 auto;
-
   font-family: "Red Hat Display";
   font-size: 1.6rem;
-  text-align: center;
 }
-.order {
-  background-color: #fff;
-  border-radius: 20px;
+section {
+  margin-top: 50px;
+  border: 2px solid red;
 
-  margin-top: 20px;
+  border-radius: 20px;
 }
-.illustration-hero {
+.illustration-hero-img {
   max-width: 100%;
-  border-top-left-radius: 17px;
-  border-top-right-radius: 17px;
+  border: 2px solid yellow;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
-.order-content {
-  padding: 20px;
-  max-width: 100%;
-  margin: 0;
-}
-.order-title {
-  font-weight: 900;
-}
-.order-content p {
-  font-weight: 500;
-  color: hsl(224, 23%, 55%);
-  padding: 0px 30px 30px;
-  line-height: 1.6;
+#order-content {
+  border: 2px solid green;
 }
 .subscription {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 60px;
 }
-.annual-plan,
-.change-link {
-  font-weight: 900;
-}
-
 .annual-plan {
-  display: flex;
-}
-.annual-plan-price {
-  margin-top: 8px;
-  font-weight: 500;
-}
-.change-link,
-.payment-btn,
-.cancel-link {
-  cursor: pointer;
-}
-.payment-btn {
-  width: 100%;
-  padding: 20px;
-  background-color: hsl(223, 47%, 23%);
-  color: #fff;
-  font-weight: 900;
-  border-radius: 20px;
-  outline: none;
-  border: none;
-  font-size: inherit;
-  margin-bottom: 30px;
-}
-.cancel-link {
-  display: block;
-  font-weight: 900;
-  text-decoration: none;
-}
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
