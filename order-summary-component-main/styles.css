@@ -19,6 +19,7 @@ body {
   margin: 0 auto;
   font-family: "Red Hat Display";
   font-size: 1.6rem;
+  font-weight: 500;
 }
 section {
   margin-top: 50px;
@@ -28,13 +29,22 @@ section {
 }
 .illustration-hero-img {
   max-width: 100%;
-  border: 2px solid yellow;
-
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-#order-content {
+.order-content {
   border: 2px solid green;
+  padding: 40px;
+  text-align: center;
+}
+.order-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.order-content p {
+  color: var(--desaturated-blue);
+  padding: 0 10px;
+  line-height: 1.6;
 }
 .subscription {
 }
