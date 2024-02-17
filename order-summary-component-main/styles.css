@@ -28,6 +28,7 @@ section {
   margin: 10px 0;
   border-radius: 20px;
   background-color: #fff;
+  box-shadow: 0px 8px 12px var(--pale-blue);
 }
 .illustration-hero-img {
   max-width: 100%;
@@ -98,8 +99,13 @@ section {
 
 @media screen and (max-width: 144rem) {
   body {
-    background-image: url(./images/pattern-background-desktop.svg);
+    /* background-image: url(./images/pattern-background-desktop.svg); */
+    background: linear-gradient(
+      to bottom,
+      var(--bright-blue),
+      url(./images/pattern-background-desktop.svg)
+    );
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
 }
