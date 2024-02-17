@@ -45,8 +45,10 @@ section {
   color: var(--desaturated-blue);
   padding: 0 10px;
   line-height: 1.6;
+  margin-bottom: 36px;
 }
 .subscription {
+  display: flex;
 }
 .annual-plan {
 }
