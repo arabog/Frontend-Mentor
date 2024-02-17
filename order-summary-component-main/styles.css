@@ -20,12 +20,16 @@ body {
   font-family: "Red Hat Display";
   font-size: 1.6rem;
   font-weight: 500;
+
+  background-image: url(./images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 section {
   margin-top: 50px;
   border: 2px solid red;
-
   border-radius: 20px;
+  background-color: #fff;
 }
 .illustration-hero-img {
   max-width: 100%;
@@ -36,6 +40,8 @@ section {
   border: 2px solid green;
   padding: 40px;
   text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .order-title {
   text-align: center;
@@ -49,6 +55,23 @@ section {
 }
 .subscription {
   display: flex;
+  align-items: center;
+  /* border: 2px solid purple; */
+
+  margin-bottom: 36px;
+  padding: 12px 16px;
+  background-color: var(--very-pale-blue);
+  border-radius: 20px;
+}
+
+.annual-plan-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 16px;
 }
 .annual-plan {
+  font-weight: 700;
+  margin-bottom: 4px;
 }
