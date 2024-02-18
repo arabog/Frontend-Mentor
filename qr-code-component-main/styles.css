@@ -17,7 +17,6 @@ body {
   width: 37.5rem;
   max-width: 144rem;
   margin: 0 auto;
-
   background-color: var(--light-gray);
 }
 article {
