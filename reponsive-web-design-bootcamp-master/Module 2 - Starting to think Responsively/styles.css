@@ -21,7 +21,8 @@ body {
 }
 
 .container {
-    width: 100%;
+    /* width: 100%; */
+    width: 95%;
 
     max-width: 980px;
 
@@ -56,6 +57,19 @@ body {
     margin-bottom: 2.5em;
 }
 
+.col:not(.aside) {
+    width: auto;
+}
+
 .col-title {
     font-size: 1.5rem;
+}
+
+.aside {
+    font-size: initial;
+    background-color: var(--bg-color);
+
+    width: 50%;
+
+    padding: 1.5em;
 }
