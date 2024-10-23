@@ -64,6 +64,9 @@ body {
 }
 
 @media (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+    }
 }
 
 .col {
