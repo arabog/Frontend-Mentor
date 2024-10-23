@@ -17,4 +17,10 @@
 
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+
+    border: 2px solid red;
+}
+
+.title-img {
+    width: 100%;
 }
