@@ -63,12 +63,6 @@ body {
     margin: 1em 0;
 }
 
-@media (max-width: 600px) {
-    .columns {
-        flex-direction: column;
-    }
-}
-
 .col {
     /* text-align: justify; */
 }
