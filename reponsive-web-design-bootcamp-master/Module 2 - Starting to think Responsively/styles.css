@@ -67,18 +67,6 @@ body {
     .columns {
         flex-direction: column;
     }
-
-    .col-one {
-        width: 100%;
-    }
-
-    .col-two {
-        width: 100%;
-    }
-
-    .col-three {
-        width: 100%;
-    }
 }
 
 .col {
@@ -95,6 +83,14 @@ body {
 
 .col-three {
     width: 70%;
+}
+
+@media (max-width: 600px) {
+    .col-one,
+    .col-two,
+    .col-three {
+        width: 100%;
+    }
 }
 
 .col-title {
