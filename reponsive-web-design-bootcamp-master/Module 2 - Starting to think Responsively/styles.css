@@ -54,9 +54,27 @@ body {
 .columns {
     display: flex;
 
-    column-gap: 2em;
+    /* column-gap: 1em; */
 
     margin-bottom: 2.5em;
+}
+
+.col.one {
+    border: 2px solid green;
+
+    width: 25%;
+}
+
+.col.two {
+    border: 2px solid red;
+
+    width: 50%;
+}
+
+.col.three {
+    border: 2px solid orange;
+
+    width: 75%;
 }
 
 .col:not(.aside) {
@@ -71,7 +89,7 @@ body {
     font-size: initial;
     background-color: var(--bg-color);
 
-    /* width: 50%; */
+    width: 25%;
 
     padding: 0.75em;
 }
