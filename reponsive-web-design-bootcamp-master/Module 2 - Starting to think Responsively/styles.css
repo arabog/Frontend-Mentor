@@ -60,7 +60,7 @@ body {
 }
 
 .col:not(.aside) {
-    width: auto;
+    /* width: auto; */
 }
 
 .col-title {
@@ -71,7 +71,7 @@ body {
     font-size: initial;
     background-color: var(--bg-color);
 
-    width: 50%;
+    /* width: 50%; */
 
     padding: 1.5em;
 }
