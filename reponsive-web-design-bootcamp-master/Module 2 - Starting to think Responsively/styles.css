@@ -80,6 +80,10 @@ body {
 }
 
 @media (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+    }
+
     .col-one,
     .col-two,
     .col-three {
