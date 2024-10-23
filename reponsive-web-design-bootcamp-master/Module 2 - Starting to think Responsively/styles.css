@@ -15,8 +15,8 @@
     margin-right: auto;
     margin-left: auto;
 
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 
     border: 2px solid red;
 }
@@ -27,4 +27,8 @@
 
 .columns {
     display: flex;
+
+    column-gap: 2em;
+
+    margin-bottom: 2.5em;
 }
