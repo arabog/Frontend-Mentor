@@ -67,6 +67,18 @@ body {
     .columns {
         flex-direction: column;
     }
+
+    .col-one {
+        width: 100%;
+    }
+
+    .col-two {
+        width: 100%;
+    }
+
+    .col-three {
+        width: 100%;
+    }
 }
 
 .col {
