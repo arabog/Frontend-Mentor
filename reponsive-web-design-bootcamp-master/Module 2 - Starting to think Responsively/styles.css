@@ -79,18 +79,6 @@ body {
     width: 70%;
 }
 
-@media (max-width: 600px) {
-    .columns {
-        flex-direction: column;
-    }
-
-    .col-one,
-    .col-two,
-    .col-three {
-        width: 100%;
-    }
-}
-
 .col-title {
     font-size: 1.5rem;
 }
@@ -107,3 +95,15 @@ body {
 /* Typography */
 
 /* Layout */
+
+@media (max-width: 600px) {
+    .columns {
+        flex-direction: column;
+    }
+
+    .col-one,
+    .col-two,
+    .col-three {
+        width: 100%;
+    }
+}
