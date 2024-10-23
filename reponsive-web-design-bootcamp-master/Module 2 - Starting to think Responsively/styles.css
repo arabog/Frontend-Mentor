@@ -56,24 +56,20 @@ body {
 
     /* column-gap: 1em; */
 
-    margin-bottom: 2.5em;
+    /* margin-bottom: 2.5em; */
+
+    margin: 1em 0;
 }
 
 .col-one {
-    border: 2px solid green;
-
     width: 25%;
 }
 
 .col-two {
-    border: 2px solid red;
-
     width: 50%;
 }
 
 .col-three {
-    border: 2px solid orange;
-
     width: 75%;
 }
 
