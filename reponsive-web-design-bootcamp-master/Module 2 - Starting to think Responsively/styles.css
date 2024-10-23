@@ -24,3 +24,7 @@
 .title-img {
     width: 100%;
 }
+
+.columns {
+    display: flex;
+}
