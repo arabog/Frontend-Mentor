@@ -28,6 +28,10 @@
     border: 2px solid red;
 }
 
+.title {
+    font-size: 3rem;
+}
+
 .title-img {
     width: 100%;
 }
