@@ -1,3 +1,10 @@
+:root {
+    --bg-color: #312614;
+    --highlight-color: #87832f;
+    --font-color: #707070;
+    --color-white: #fff;
+}
+
 *,
 *::after,
 *::before {
