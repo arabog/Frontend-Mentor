@@ -56,7 +56,7 @@ h1 {
 .article-read-more:hover,
 .article-read-more:focus {
     color: #143774;
-    text-decoration: none;
+    text-decoration: underline;
 
     font-weight: 700;
 }
