@@ -68,7 +68,7 @@ a:focus {
     text-decoration: underline;
 }
 
-.article-body span {
+strong {
     font-weight: 700;
 }
 
