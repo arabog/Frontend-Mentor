@@ -99,7 +99,7 @@ header {
 }
 
 @media (max-width: 675px) {
-    .container-nav {
+    .container-flex {
         flex-direction: column;
     }
 
