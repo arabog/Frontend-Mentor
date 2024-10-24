@@ -34,6 +34,11 @@ a {
     color: #1792d2;
 }
 
+a:hover,
+a:focus {
+    color: #143774;
+}
+
 .subtitle {
     font-weight: 700;
     color: #1792d2;
