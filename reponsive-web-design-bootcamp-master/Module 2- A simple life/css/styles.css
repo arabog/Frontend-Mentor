@@ -6,7 +6,7 @@ font-family: 'Ubuntu', sans-serif;
 
 body {
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 /* =================
@@ -14,7 +14,7 @@ Typography
 ================= */
 
 h1 {
-    font-family: 'Lora', serif;
+    font-family: "Lora", serif;
     font-weight: 400;
     color: #143774;
     font-size: 2rem;
@@ -24,7 +24,7 @@ h1 {
 .subtitle {
     font-weight: 700;
     color: #1792d2;
-    font-size: .75rem;
+    font-size: 0.75rem;
     margin: 0;
 }
 
@@ -52,7 +52,7 @@ header {
     .container-nav {
         flex-direction: column;
     }
-    
+
     header {
         text-align: center;
     }
@@ -65,6 +65,8 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
+
+    /* border: 2px solid green; */
 }
 
 nav li {
@@ -75,7 +77,7 @@ nav a {
     text-decoration: none;
     color: #707070;
     font-weight: 700;
-    padding: .25em 0;
+    padding: 0.25em 0;
 }
 
 nav a:hover,
@@ -95,8 +97,8 @@ nav a:focus {
     nav ul {
         flex-direction: column;
     }
-    
+
     nav li {
-        margin: .5em 0;
+        margin: 0.5em 0;
     }
 }
