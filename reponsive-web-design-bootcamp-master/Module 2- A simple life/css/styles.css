@@ -90,12 +90,15 @@ Layout
 
 .container-flex {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 header {
     background: #f8f8f8;
     padding: 2em 0;
+
+    text-align: center;
 }
 
 /*
