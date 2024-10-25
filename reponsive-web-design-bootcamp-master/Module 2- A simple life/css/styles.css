@@ -138,22 +138,6 @@ header {
     margin-bottom: 3em;
 }
 
-@media (min-width: 675px) {
-    .container-flex {
-        flex-direction: row;
-    }
-
-    main {
-        width: 70%;
-    }
-
-    aside {
-        width: 25%;
-        min-width: 250px;
-        margin-left: 1em;
-    }
-}
-
 footer {
     background-color: #143774;
 
@@ -269,6 +253,23 @@ nav a:focus {
 }
 
 @media (min-width: 675px) {
+}
+
+@media (min-width: 675px) {
+    .container-flex {
+        flex-direction: row;
+    }
+
+    main {
+        width: 70%;
+    }
+
+    aside {
+        width: 25%;
+        min-width: 250px;
+        margin-left: 1em;
+    }
+
     .article-recent {
         flex-direction: row;
         justify-content: space-between;
