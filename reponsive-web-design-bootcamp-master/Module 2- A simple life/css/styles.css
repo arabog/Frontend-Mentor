@@ -82,8 +82,6 @@ strong {
 
 .article-info {
     margin: 2em 0;
-
-    border: 2px solid green;
 }
 
 /* =================
@@ -191,9 +189,9 @@ nav a:focus {
 
 /* articles */
 .article-featured {
-    border-bottom: #707070 2px solid;
+    border-bottom: #707070 1px solid;
 
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 
     margin-bottom: 2em;
 }
