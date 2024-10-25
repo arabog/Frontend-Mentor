@@ -195,3 +195,11 @@ nav a:focus {
 
     margin-bottom: 2em;
 }
+
+.article-recent {
+    border: 2px solid green;
+
+    display: flex;
+
+    flex-direction: column;
+}
