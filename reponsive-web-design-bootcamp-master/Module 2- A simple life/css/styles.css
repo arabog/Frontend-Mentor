@@ -90,10 +90,14 @@ strong {
     flex-direction: column;
 }
 
+.widget-recent-post-title {
+    margin: 1em 0 2em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #707070;
+}
+
 .widget-image {
     order: -1;
-
-    /* margin-bottom: 1em; */
 }
 
 .widget-title,
