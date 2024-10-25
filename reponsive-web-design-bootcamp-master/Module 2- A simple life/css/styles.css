@@ -79,6 +79,9 @@ strong {
 }
 
 .article-info {
+    margin: 2em 0 0.5em;
+
+    border: 2px solid green;
 }
 
 /* =================
