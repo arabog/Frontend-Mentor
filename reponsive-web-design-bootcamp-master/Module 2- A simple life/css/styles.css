@@ -216,33 +216,33 @@ nav a:focus {
     order: 1;
 }
 
+.article-featured {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.article-title {
+    order: 3;
+}
+
+.article-image {
+    order: 1;
+}
+
+.article-info {
+    order: 2;
+}
+
+.article-body {
+    order: 4;
+}
+
+.article-read-more {
+    order: 5;
+}
+
 @media (min-width: 675px) {
-    .article-featured {
-        display: flex;
-
-        flex-direction: column;
-    }
-
-    .article-title {
-        order: 3;
-    }
-
-    .article-image {
-        order: 1;
-    }
-
-    .article-info {
-        order: 2;
-    }
-
-    .article-body {
-        order: 4;
-    }
-
-    .article-read-more {
-        order: 5;
-    }
-
     .article-recent {
         flex-direction: row;
         justify-content: space-between;
