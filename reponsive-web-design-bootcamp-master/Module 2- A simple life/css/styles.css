@@ -84,6 +84,18 @@ strong {
     margin: 2em 0;
 }
 
+.widget-recent-post {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.widget-recent-post-title {
+    order: 2;
+
+    margin: 1em 0 1.5em;
+}
+
 .widget-title,
 .widget-recent-post-title {
     font-size: 1rem;
