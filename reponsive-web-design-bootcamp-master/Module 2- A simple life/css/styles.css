@@ -214,6 +214,7 @@ nav a:focus {
     order: 1;
 }
 
+/* 
 @media (min-width: 550px) {
     .article-recent-main {
         border: 2px solid red;
@@ -224,4 +225,6 @@ nav a:focus {
     .article-info {
         text-align: right;
     }
-}
+} 
+    
+*/
