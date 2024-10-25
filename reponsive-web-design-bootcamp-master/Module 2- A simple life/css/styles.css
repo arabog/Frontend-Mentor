@@ -224,23 +224,23 @@ nav a:focus {
     }
 
     .article-title {
-        /* order: 1; */
-
-        border: 2px solid green;
+        order: 3;
     }
 
     .article-image {
-        /* order: 1; */
-
-        border: 2px solid red;
+        order: 1;
     }
 
     .article-info {
-        /* order: 2; */
+        order: 2;
     }
 
     .article-body {
-        /* order: 0; */
+        order: 4;
+    }
+
+    .article-read-more {
+        order: 5;
     }
 
     .article-recent {
