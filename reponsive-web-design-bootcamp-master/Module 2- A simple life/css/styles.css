@@ -240,6 +240,7 @@ nav li {
     margin-bottom: 2em;
 }
 
+/* media-query */
 @media (min-width: 675px) {
     .container-flex {
         flex-direction: row;
@@ -270,7 +271,6 @@ nav li {
 
     .article-recent-main {
         width: 68%;
-        /* text-align: right; */
     }
 
     .article-recent-secondary {
