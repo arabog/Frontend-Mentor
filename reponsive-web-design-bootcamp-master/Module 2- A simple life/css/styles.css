@@ -266,6 +266,14 @@ nav li {
         flex-direction: row;
     }
 
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        margin-left: 1em;
+    }
+
     main {
         width: 70%;
     }
