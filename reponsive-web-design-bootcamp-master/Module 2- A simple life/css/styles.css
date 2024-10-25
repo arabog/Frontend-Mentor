@@ -88,12 +88,12 @@ strong {
     display: flex;
 
     flex-direction: column;
+    border-bottom: 1px solid #707070;
 }
 
 .widget-recent-post-title {
-    margin: 1em 0 2em;
-    padding-bottom: 1em;
-    border-bottom: 1px solid #707070;
+    /* margin: 1em 0 2em; */
+    /* padding-bottom: 1em; */
 }
 
 .widget-image {
