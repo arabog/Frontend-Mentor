@@ -154,6 +154,12 @@ header {
     }
 }
 
+footer {
+    background-color: #143774;
+
+    color: #fff;
+}
+
 /*
 @media (max-width: 675px) {
     .container-flex {
