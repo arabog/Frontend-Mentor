@@ -101,6 +101,12 @@ header {
     text-align: center;
 }
 
+@media (min-width: 675px) {
+    .container-flex {
+        flex-direction: row;
+    }
+}
+
 /*
 @media (max-width: 675px) {
     .container-flex {
