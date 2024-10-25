@@ -188,3 +188,12 @@ nav a:focus {
         margin: 0.5em 0;
     }
 }
+
+/* articles */
+.article-featured {
+    border-bottom: #707070 2px solid;
+
+    padding-bottom: 1em;
+
+    margin-bottom: 2em;
+}
