@@ -217,12 +217,30 @@ nav a:focus {
 }
 
 @media (min-width: 675px) {
+    .article-featured {
+        display: flex;
+
+        flex-direction: column;
+    }
+
     .article-title {
-        order: 2;
+        /* order: 1; */
+
+        border: 2px solid green;
     }
 
     .article-image {
-        order: 1;
+        /* order: 1; */
+
+        border: 2px solid red;
+    }
+
+    .article-info {
+        /* order: 2; */
+    }
+
+    .article-body {
+        /* order: 0; */
     }
 
     .article-recent {
