@@ -161,7 +161,6 @@ nav ul {
 }
 
 nav li {
-    /* margin: 0 1em; */
     margin-left: 2em;
 }
 
@@ -223,28 +222,6 @@ nav li {
 
     flex-direction: column;
 }
-
-/*
-.article-title {
-    order: 3;
-}
-
-.article-image {
-    order: 1;
-}
-
-.article-info {
-    order: 2;
-}
-
-.article-body {
-    order: 4;
-}
-
-.article-read-more {
-    order: 5;
-}
-*/
 
 .article-image {
     order: -2;
