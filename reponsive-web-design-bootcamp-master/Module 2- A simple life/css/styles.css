@@ -214,8 +214,14 @@ nav a:focus {
     order: 1;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 550px) {
     .article-recent-main {
         border: 2px solid red;
+
+        margin-top: -2.5em;
+    }
+
+    .article-info {
+        text-align: right;
     }
 }
