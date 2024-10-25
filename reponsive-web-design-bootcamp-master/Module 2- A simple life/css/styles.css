@@ -214,17 +214,21 @@ nav a:focus {
     order: 1;
 }
 
-/* 
-@media (min-width: 550px) {
+@media (min-width: 675px) {
     .article-recent-main {
-        border: 2px solid red;
-
-        margin-top: -2.5em;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
-    .article-info {
-        text-align: right;
+    .article-recent-main {
+        width: 100%;
+        /* text-align: right; */
     }
-} 
-    
-*/
+
+    .article-recent-secondary {
+        width: 100%;
+    }
+
+    .article-image {
+    }
+}
