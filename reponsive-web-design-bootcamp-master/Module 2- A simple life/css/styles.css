@@ -72,6 +72,8 @@ strong {
     text-decoration: none;
 
     font-weight: 700;
+
+    text-transform: uppercase;
 }
 
 .article-read-more:hover,
@@ -127,8 +129,6 @@ Layout
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    border: #1792d2 2px solid;
 }
 
 header {
