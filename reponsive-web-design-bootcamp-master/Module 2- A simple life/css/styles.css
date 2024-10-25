@@ -205,7 +205,9 @@ nav a:focus {
 }
 
 .article-recent-main {
+    order: 2;
 }
 
 .article-recent-secondary {
+    order: 1;
 }
