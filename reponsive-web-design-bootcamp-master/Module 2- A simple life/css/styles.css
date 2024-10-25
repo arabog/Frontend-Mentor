@@ -163,28 +163,6 @@ footer {
     padding: 3em 0;
 }
 
-/*
-@media (max-width: 675px) {
-    .container-flex {
-        flex-direction: column;
-    }
-
-    header {
-        text-align: center;
-    }
-}
-
-main {
-    width: 75%;
-
-}
-
-aside {
-    width: 20%;
-}
-    
-*/
-
 /* navigation */
 
 nav ul {
