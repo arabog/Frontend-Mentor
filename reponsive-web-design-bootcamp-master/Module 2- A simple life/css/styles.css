@@ -158,6 +158,9 @@ footer {
     background-color: #143774;
 
     color: #fff;
+
+    text-align: center;
+    padding: 3em 0;
 }
 
 /*
@@ -236,8 +239,6 @@ nav a:focus {
 }
 
 .article-recent {
-    border: 2px solid green;
-
     display: flex;
 
     flex-direction: column;
