@@ -45,6 +45,10 @@ a:focus {
     color: #143774;
 }
 
+strong {
+    font-weight: 700;
+}
+
 .subtitle {
     font-weight: 700;
     color: #1792d2;
@@ -74,8 +78,7 @@ a:focus {
     text-decoration: underline;
 }
 
-strong {
-    font-weight: 700;
+.article-info {
 }
 
 /* =================
@@ -104,6 +107,14 @@ header {
 @media (min-width: 675px) {
     .container-flex {
         flex-direction: row;
+    }
+
+    main {
+        width: 75%;
+    }
+
+    aside {
+        width: 20%;
     }
 }
 
