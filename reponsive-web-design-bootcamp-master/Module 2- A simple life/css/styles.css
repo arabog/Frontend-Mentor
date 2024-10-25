@@ -90,10 +90,10 @@ strong {
     flex-direction: column;
 }
 
-.widget-recent-post-title {
-    order: 2;
+.widget-image {
+    order: -1;
 
-    margin: 1em 0 1.5em;
+    /* margin-bottom: 1em; */
 }
 
 .widget-title,
