@@ -222,6 +222,7 @@ nav a:focus {
     flex-direction: column;
 }
 
+/*
 .article-title {
     order: 3;
 }
@@ -240,6 +241,15 @@ nav a:focus {
 
 .article-read-more {
     order: 5;
+}
+*/
+
+.article-image {
+    order: -2;
+}
+
+.article-info {
+    order: -1;
 }
 
 @media (min-width: 675px) {
