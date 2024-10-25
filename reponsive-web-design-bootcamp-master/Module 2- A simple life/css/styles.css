@@ -226,9 +226,10 @@ nav a:focus {
     }
 
     .article-recent-secondary {
-        width: 100%;
+        width: 68%;
     }
 
     .article-image {
+        width: 30%;
     }
 }
