@@ -43,7 +43,6 @@ h3 {
 
 h1 {
     font-size: 2rem;
-    border: 2px solid red;
 
     margin: 0;
 }
@@ -61,8 +60,6 @@ h3 {
     font-size: 0.75rem;
 
     text-align: center;
-
-    border: 1px solid purple;
 }
 
 p {
@@ -73,14 +70,14 @@ img {
     max-width: 100%;
 
     display: block;
-
-    margin-bottom: 1em;
 }
 
 .article-info {
     font-size: 0.875rem;
 
     order: -1;
+
+    margin: 1em 0;
 }
 
 .article-read-more {
@@ -101,8 +98,6 @@ img {
 
     padding-left: 0.5em;
     padding-right: 0.5em;
-
-    border: 2px solid green;
 }
 
 .container-flex {
@@ -119,8 +114,6 @@ img {
 }
 
 nav ul {
-    border: 2px solid cadetblue;
-
     text-align: center;
 
     /* padding: 0; */
@@ -129,8 +122,6 @@ nav ul {
 nav li {
     margin-bottom: 1em;
     list-style: none;
-
-    /* border: 2px solid orange; */
 
     /* padding: 0; */
 }
