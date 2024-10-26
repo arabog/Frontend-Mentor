@@ -147,6 +147,8 @@ nav a {
     flex-direction: column;
 
     border-bottom: 1px solid #707070;
+
+    margin-bottom: 2em;
 }
 
 .article-image {
@@ -169,7 +171,7 @@ nav a {
     display: flex;
     flex-direction: column;
 
-    border: red solid 2px;
+    margin-bottom: 2em;
 }
 
 .article-recent-main {
@@ -244,7 +246,7 @@ footer p {
     margin: 1em 0;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     header .container-flex {
         align-items: center;
     }
@@ -278,18 +280,18 @@ footer p {
 
     /* main */
     main {
-        width: 70%;
+        width: 68%;
     }
 
     aside {
-        width: 25%;
+        width: 27%;
         max-width: 250px;
 
         margin-left: 2em;
     }
 
     h2 {
-        font-size: 1.2rem;
+        font-size: calc(0.45rem + 1vw);
     }
 
     .article-recent {
@@ -297,7 +299,7 @@ footer p {
         flex-direction: row;
         justify-content: space-between;
 
-        border: red solid 2px;
+        /* border: red solid 2px; */
     }
 
     .article-recent-main {
@@ -323,6 +325,6 @@ footer p {
     }
 
     .article-info {
-        font-size: 0.75rem;
+        font-size: 0.85rem;
     }
 }
