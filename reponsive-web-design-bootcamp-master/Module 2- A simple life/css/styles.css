@@ -129,9 +129,10 @@ a:focus {
 nav ul {
     text-align: center;
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     /* width: 100%; */
+    /* width: 100vw; */
 
     /* padding: 0; */
 }
@@ -143,8 +144,9 @@ nav li {
     /* padding: 0; */
 
     /* display: block; */
+    /* width: 100%; */
 
-    border: 2px solid red;
+    /* border: 2px solid green; */
 }
 
 nav a {
@@ -161,7 +163,7 @@ nav a {
     /* width: 100%; */
 
     /* display: block; */
-    /* padding: 0.5em 1em; */
+    padding: 0.5em 6em;
 }
 
 /* article */
