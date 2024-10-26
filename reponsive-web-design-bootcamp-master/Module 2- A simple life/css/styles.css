@@ -102,8 +102,8 @@ a:focus {
     margin-left: auto;
     margin-right: auto;
 
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    /* padding-left: 0.5em; */
+    /* padding-right: 0.5em; */
 }
 
 .container-flex {
@@ -253,8 +253,16 @@ footer p {
     }
 
     nav ul {
-        text-align: center;
+        display: flex;
+    }
 
+    nav li {
         border: 2px solid red;
+    }
+
+    nav a {
+        padding: 0;
+
+        margin-left: 2em;
     }
 }
