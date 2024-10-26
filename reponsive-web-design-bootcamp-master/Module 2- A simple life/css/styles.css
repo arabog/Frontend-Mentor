@@ -257,7 +257,7 @@ footer p {
     }
 
     nav li {
-        border: 2px solid red;
+        cursor: pointer;
     }
 
     nav a {
