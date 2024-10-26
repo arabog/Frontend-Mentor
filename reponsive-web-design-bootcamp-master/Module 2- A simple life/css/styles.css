@@ -209,6 +209,7 @@ nav a {
     border: 20px solid #f8f8f8;
 
     margin-bottom: 2em;
+    padding: 1em;
 
     display: flex;
     flex-direction: column;
@@ -216,13 +217,35 @@ nav a {
 
 .widget-title {
     margin-bottom: 1em;
+
+    /* margin: 0; */
+    border: 2px solid green;
+}
+
+.widget-recent-post {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+
+    border-bottom: 1px solid #717171;
+}
+
+.widget-recent-post-title {
+    order: -1;
+}
+
+.widget-image {
+    order: -2;
+
+    margin-bottom: 0.5em;
 }
 
 /* 
 border: 2px solid red;
 
 
-border: 2px solid green;
 
 border: 2px solid cadetblue;
     
