@@ -23,6 +23,10 @@ html {
     font-family: Ubuntu, sans-serif;
 }
 
+body {
+    line-height: 1.4;
+}
+
 header {
     background-color: #f8f8f8;
 
@@ -168,8 +172,6 @@ nav a {
 .article-recent {
     display: flex;
     flex-direction: column;
-
-    margin-bottom: 2em;
 }
 
 .article-recent-main {
