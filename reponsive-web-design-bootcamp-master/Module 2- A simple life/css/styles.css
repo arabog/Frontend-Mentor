@@ -29,7 +29,9 @@ body {
 header {
     background-color: #f8f8f8;
 
-    margin: 2em 0;
+    padding: 2em 0;
+
+    margin-bottom: 3em;
 }
 
 /* typography */
@@ -70,6 +72,17 @@ img {
     max-width: 100%;
 
     display: block;
+}
+
+a {
+    color: #1792d2;
+
+    font-size: 0.85rem;
+}
+
+a:hover,
+a:focus {
+    color: #143774;
 }
 
 .article-info {
@@ -116,6 +129,10 @@ img {
 nav ul {
     text-align: center;
 
+    border: 2px solid red;
+
+    /* width: 100%; */
+
     /* padding: 0; */
 }
 
@@ -124,16 +141,39 @@ nav li {
     list-style: none;
 
     /* padding: 0; */
+
+    /* display: block; */
+
+    border: 2px solid red;
 }
 
 nav a {
     text-decoration: none;
+
+    color: #717171;
+
+    text-transform: uppercase;
+
+    font-weight: 700;
+
+    font-size: 0.8rem;
+
+    /* width: 100%; */
+
+    /* display: block; */
+    /* padding: 0.5em 1em; */
 }
 
 /* article */
-article {
+.article-featured {
     display: flex;
     flex-direction: column;
+
+    margin: 2em 0;
+}
+
+.article-body {
+    padding: 1em 0;
 }
 
 .article-image {
