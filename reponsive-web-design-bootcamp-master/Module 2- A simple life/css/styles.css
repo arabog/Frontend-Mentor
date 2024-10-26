@@ -73,10 +73,14 @@ img {
     max-width: 100%;
 
     display: block;
+
+    margin-bottom: 1em;
 }
 
 .article-info {
     font-size: 0.875rem;
+
+    order: -1;
 }
 
 .article-read-more {
@@ -136,3 +140,11 @@ nav a {
 }
 
 /* article */
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-image {
+    order: -2;
+}
