@@ -112,7 +112,7 @@ a:focus {
     display: flex;
     flex-direction: column;
 
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 /* header */
@@ -199,11 +199,14 @@ nav a {
 .sidebar-widget {
     border: 20px solid #f8f8f8;
 
-    margin-bottom: 2em;
     padding: 1em;
 
     display: flex;
     flex-direction: column;
+}
+
+.sidebar-widget:first-of-type {
+    margin-bottom: 2em;
 }
 
 .widget-title {
@@ -293,6 +296,9 @@ footer p {
 
     aside {
         width: 30%;
+        max-width: 250px;
+
+        margin-left: 2em;
     }
 
     .article-image {
