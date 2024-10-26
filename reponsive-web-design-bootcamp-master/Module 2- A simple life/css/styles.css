@@ -31,13 +31,16 @@ h1,
 h2,
 h3 {
     font-weight: 700;
+    color: #143774;
 }
 
 h1 {
     font-size: 2rem;
     border: 2px solid red;
+}
 
-    color: #143774;
+h2 {
+    /* color: #143774; */
 }
 
 p {
