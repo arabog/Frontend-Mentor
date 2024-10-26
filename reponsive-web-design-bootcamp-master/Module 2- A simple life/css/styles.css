@@ -120,9 +120,6 @@ main {
     border: red solid 2px;
 }
 
-nav ul {
-}
-
 nav li {
     margin-bottom: 1em;
     list-style: none;
@@ -149,13 +146,7 @@ nav a {
     display: flex;
     flex-direction: column;
 
-    /* justify-content: flex-start; */
-
-    /* margin: 2em 0; */
-
     border-bottom: 1px solid #707070;
-
-    border: 1px solid purple;
 }
 
 .article-image {
