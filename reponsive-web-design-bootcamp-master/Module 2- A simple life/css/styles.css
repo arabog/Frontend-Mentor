@@ -265,4 +265,12 @@ footer p {
 
         margin-left: 2em;
     }
+
+    /* main */
+
+    .article-image {
+        width: 100%;
+
+        border: 2px solid blue;
+    }
 }
