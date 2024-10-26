@@ -203,6 +203,8 @@ nav a {
 
 .sidebar {
     border: 1px solid purple;
+
+    margin-bottom: 3em;
 }
 
 .sidebar-widget {
@@ -232,6 +234,11 @@ nav a {
     border-bottom: 1px solid #717171;
 }
 
+.widget-recent-post:last-child {
+    border: 0;
+    margin-bottom: 0;
+}
+
 .widget-recent-post-title {
     order: -1;
 }
@@ -240,6 +247,19 @@ nav a {
     order: -2;
 
     margin-bottom: 0.5em;
+}
+
+footer {
+    padding: 3em 0;
+
+    background-color: #143774;
+    color: #f8f8f8;
+
+    text-align: center;
+}
+
+footer p {
+    margin: 1em 0;
 }
 
 /* 
