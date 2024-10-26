@@ -26,6 +26,10 @@ body {
     font-size: 1rem;
 }
 
+header {
+    background-color: #f8f8f8;
+}
+
 /* typography */
 h1,
 h2,
@@ -40,7 +44,11 @@ h1 {
 }
 
 h2 {
-    /* color: #143774; */
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.125rem;
 }
 
 p {
@@ -49,12 +57,22 @@ p {
 
 .subtitle {
     color: #1792d2;
+    font-size: 0.75rem;
 }
 
 img {
     max-width: 100%;
 
     display: block;
+}
+
+.article-info {
+    font-size: 0.875rem;
+}
+
+.article-read-more {
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 /* layout */
