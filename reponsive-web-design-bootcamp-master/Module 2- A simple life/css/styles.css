@@ -201,10 +201,26 @@ nav a {
 
 /* aside */
 
+.sidebar {
+    border: 1px solid purple;
+}
+
+.sidebar-widget {
+    border: 20px solid #f8f8f8;
+
+    margin-bottom: 2em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-title {
+    margin-bottom: 1em;
+}
+
 /* 
 border: 2px solid red;
 
-border: 1px solid purple;
 
 border: 2px solid green;
 
