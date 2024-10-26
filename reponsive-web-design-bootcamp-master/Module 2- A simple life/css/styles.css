@@ -19,11 +19,12 @@ font-family: 'Ubuntu', sans-serif;
 }
 
 html {
+    font-family: Ubuntu, sans-serif;
+    font-size: 1rem;
 }
 
 body {
-    font-family: Ubuntu, sans-serif;
-    font-size: 1rem;
+    background-color: #fdfdfd;
 }
 
 header {
@@ -122,13 +123,6 @@ a:focus {
 
 nav ul {
     text-align: center;
-
-    /* border: 2px solid red; */
-
-    /* width: 100%; */
-    /* width: 100vw; */
-
-    /* padding: 0; */
 }
 
 nav li {
