@@ -117,8 +117,6 @@ a:focus {
 }
 
 main {
-    border: red solid 2px;
-
     margin-bottom: 2em;
 }
 
@@ -170,6 +168,8 @@ nav a {
 .article-recent {
     display: flex;
     flex-direction: column;
+
+    border: red solid 2px;
 }
 
 .article-recent-main {
@@ -278,20 +278,39 @@ footer p {
 
     /* main */
     main {
-        width: 60%;
+        width: 70%;
     }
 
     aside {
-        width: 35%;
+        width: 25%;
         max-width: 250px;
 
         margin-left: 2em;
     }
 
     h2 {
-        font-size: 1.35rem;
+        font-size: 1.2rem;
+    }
+
+    .article-recent {
+        /* display: flex; */
+        flex-direction: row;
+        justify-content: space-between;
+
+        border: red solid 2px;
+    }
+
+    .article-recent-main {
+        width: 65%;
+    }
+
+    .article-recent-secondary {
     }
 
     .article-image {
+        width: 100%;
+        max-height: 350px;
+
+        margin-right: 1em;
     }
 }
