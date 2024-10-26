@@ -23,17 +23,35 @@ html {
 
 body {
     font-family: Ubuntu, sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 /* typography */
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     border: 2px solid red;
+
+    color: #143774;
 }
 
 p {
     font-size: 1rem;
+}
+
+.subtitle {
+    color: #1792d2;
+}
+
+img {
+    max-width: 100%;
+
+    display: block;
 }
 
 /* layout */
