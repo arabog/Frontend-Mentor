@@ -243,16 +243,12 @@ footer p {
 @media (min-width: 700px) {
     header .container-flex {
         align-items: center;
-        /* margin: 0; */
     }
     .container-flex {
         display: flex;
         flex-direction: row;
 
         /* border: 2px solid green; */
-
-        /* justify-content: space-between; */
-        /* align-items: center; */
     }
 
     .site-title {
@@ -289,8 +285,5 @@ footer p {
     }
 
     .article-image {
-        /* width: 100%; */
-
-        /* border: 2px solid blue; */
     }
 }
