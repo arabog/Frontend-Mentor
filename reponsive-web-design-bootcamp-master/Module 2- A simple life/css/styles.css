@@ -134,13 +134,6 @@ nav ul {
 nav li {
     margin-bottom: 1em;
     list-style: none;
-
-    /* padding: 0; */
-
-    /* display: block; */
-    /* width: 100%; */
-
-    /* border: 2px solid green; */
 }
 
 nav a {
@@ -154,10 +147,9 @@ nav a {
 
     font-size: 0.8rem;
 
-    /* width: 100%; */
-
-    /* display: block; */
     padding: 0.5em 6em;
+
+    cursor: pointer;
 }
 
 /* article */
@@ -200,7 +192,6 @@ nav a {
 }
 
 /* aside */
-
 .sidebar {
     margin-bottom: 3em;
 }
