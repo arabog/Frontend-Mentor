@@ -1,0 +1,170 @@
+:root {
+    --right-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* (paragraphs) */
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+
+    /* background, headings, buttons */
+    --very-light-gray: hsl(0, 0%, 95%);
+
+    /* --font-size: 15px; */
+    --font-size: 0.9375rem;
+
+    --heading-font: "Big Shoulders Display", sans-serif;
+    --body-font: "Lexend Deca", sans-serif;
+}
+
+/* Typography */
+html {
+    font-size: var(--font-size);
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    font-weight: 700;
+
+    font-size: 2rem;
+}
+
+p,
+a {
+    font-family: var(--body-font);
+    font-weight: 400;
+}
+
+/* Layout */
+#main {
+    padding: 2em 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-ons {
+    color: var(--transparent-white);
+    padding: 2em 0;
+}
+
+.card {
+    padding: 4em 3em;
+
+    max-height: 40%;
+    /* max-width: 400px; */
+}
+
+.card-body {
+    width: 95%;
+    height: 35%;
+
+    padding: 1.2em 0 4em 0;
+
+    line-height: 1.6;
+
+    margin: 0;
+}
+
+.card.one {
+    background-color: var(--right-orange);
+
+    border-radius: 10px 10px 0 0;
+}
+
+.card.two {
+    background-color: var(--dark-cyan);
+}
+
+.card.three {
+    background-color: var(--very-dark-cyan);
+
+    border-radius: 0 0 10px 10px;
+}
+
+a {
+    background-color: var(--transparent-white);
+
+    text-decoration: none;
+
+    padding: 0.5em 1em;
+
+    border-radius: 1em;
+
+    margin-bottom: 1em;
+}
+
+.one a {
+    color: var(--right-orange);
+}
+
+.two a {
+    color: var(--dark-cyan);
+}
+
+.three a {
+    color: var(--very-dark-cyan);
+}
+
+@media (min-width: 700px) {
+    .container {
+        width: 90%;
+        max-width: 900px;
+    }
+
+    .add-ons {
+        display: flex;
+    }
+
+    .card {
+        padding: 4em 3em;
+
+        max-height: 60%;
+    }
+
+    .card-body {
+        width: 95%;
+        height: 45%;
+    }
+
+    .card.one {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card.three {
+        border-radius: 0 10px 10px 0;
+    }
+}
+
+@media (min-width: 850px) {
+    .add-ons {
+        display: flex;
+    }
+
+    .card {
+        padding-bottom: 2em;
+    }
+
+    .card-body {
+        width: 99%;
+        height: 32%;
+
+        padding: 1em 0 6em 0;
+
+        line-height: 1.6;
+    }
+
+    .card {
+        padding: 4em 3em;
+    }
+}
